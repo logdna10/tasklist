@@ -21,7 +21,7 @@ function loadEventListeners() {
   // Filter tasks event
   filter.addEventListener('keyup', filterTasks);
 }
-
+const taskInput = document.querySelector('#task');
 // Get Tasks from LS
 function getTasks() {
   let tasks;
